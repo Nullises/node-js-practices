@@ -1,3 +1,5 @@
+// FOR EVENT EMITTERS IS RECOMMENDED SET IMMEDIATE
+
 const EventEmitter = require("events");
 const myEmitter = new EventEmitter();
 let counter = 0;
